@@ -1,0 +1,21 @@
+{
+  "name": "vercel-cors-problem-turbo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MontoyaAndres/vercel-cors-problem-turbo.git",
+  "author": "MontoyaAndres <andresmontoyafcb@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@1.22.19",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "turbo": "^1.10.1"
+  }
+}
